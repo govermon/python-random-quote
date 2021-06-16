@@ -1,3 +1,6 @@
+def before_main():
+  print("This will run and so will main")
+  
 def main():
   print("Keep it logically awesome.")
 
@@ -8,4 +11,5 @@ def main():
   #print(quotes)
 
 if __name__== "__main__":
+  before_main()
   main()
